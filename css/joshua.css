@@ -24,6 +24,10 @@ header nav ul li a {
     color: black ;
 }
 
+header nav ul li a:hover {
+    color: gray ;
+}
+
 #aboutme {
     text-align: center;
     padding-bottom: 1rem;
@@ -41,6 +45,10 @@ header nav ul li a {
 #hobby ul li a {
     text-decoration: underline;
     color: black;
+}
+
+#hobby ul li a:hover {
+    color: gray;
 }
 
 #series {
@@ -66,4 +74,8 @@ footer {
 footer a {
     text-decoration: underline;
     color: black;
+}
+
+footer a:hover {
+    color: blueviolet;
 }
